@@ -118,6 +118,9 @@ Be sure to unlock the account and enable mining on the second node!
 
 You should now see both nodes producing new blocks, congratulations!
 
+![image](https://user-images.githubusercontent.com/69773959/107541435-5d4b4080-6b84-11eb-88de-f60b3fdbbc9d.png)
+
+![image](https://user-images.githubusercontent.com/69773959/107541501-6cca8980-6b84-11eb-8937-59ef2ea18fa2.png)
 
 
 Send a test transaction
