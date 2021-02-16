@@ -99,12 +99,7 @@ Initialize each node with the new networkname.json with geth.
 
 ./geth init gensis.json --datadir node1
 ./geth init gensis.json --datadir node2
-[image](https://user-images.githubusercontent.com/69773959/108016796-93e3e980-6fd0-11eb-92e5-9710c70bb62c.png)
-
-![image](https://user-images.githubusercontent.com/69773959/108016816-9a726100-6fd0-11eb-8ed5-03d0bbd0aa8c.png)
-
-![image](https://user-images.githubusercontent.com/69773959/108016825-a65e2300-6fd0-11eb-9097-26598415aaac.png)
-
+![image](https://user-images.githubusercontent.com/69773959/108017223-93981e00-6fd1-11eb-9b59-78d6b6daf047.png)
 
 Run the first node, unlock the account, enable mining, and the RPC flag. Only one node needs RPC enabled.
 
@@ -117,9 +112,10 @@ Be sure to unlock the account and enable mining on the second node!
 
 You should now see both nodes producing new blocks, congratulations!
 
-![image](https://user-images.githubusercontent.com/69773959/107541435-5d4b4080-6b84-11eb-88de-f60b3fdbbc9d.png)
+![image](https://user-images.githubusercontent.com/69773959/108017266-b0345600-6fd1-11eb-933e-24b741ef7619.png)
 
-![image](https://user-images.githubusercontent.com/69773959/107541501-6cca8980-6b84-11eb-8937-59ef2ea18fa2.png)
+![image](https://user-images.githubusercontent.com/69773959/108017299-c8a47080-6fd1-11eb-8a94-3e627f3a6639.png)
+
 
 
 Send a test transaction
