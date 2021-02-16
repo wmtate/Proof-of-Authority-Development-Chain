@@ -126,5 +126,45 @@ Use the MyCrypto GUI wallet to connect to the node with the exposed RPC port.
 
 You will need to use a custom network, and include the chain ID, and use ETH as the currency.
 
-![image](https://user-images.githubusercontent.com/69773959/107470398-9b1a7b80-6b28-11eb-9b4e-bbba5cdb6ced.png)
+![image](https://user-images.githubusercontent.com/69773959/108017384-fbe6ff80-6fd1-11eb-9744-e78c6d7b82fb.png)
+
+Import the keystore file from the `node1/keystore` directory into MyCrypto. This will import the private key.
+
+* Send a transaction from the `node1` account to the `node2` account.
+
+* Copy the transaction hash and paste it into the "TX Status" section of the app, or click "TX Status" in the popup.
+
+* Screenshot the transaction metadata (status, tx hash, block number, etc) and save it to your Screenshots folder.
+
+![image](https://user-images.githubusercontent.com/69773959/108017503-4ff1e400-6fd2-11eb-8427-29e51d296044.png)
+
+![image](https://user-images.githubusercontent.com/69773959/108017518-56805b80-6fd2-11eb-916e-fd846ed48695.png)
+
+![image](https://user-images.githubusercontent.com/69773959/108017531-5c763c80-6fd2-11eb-9452-12b31b029e77.png)
+
+![image](https://user-images.githubusercontent.com/69773959/108017543-613af080-6fd2-11eb-94df-5e4cfea6beea.png)
+
+![image](https://user-images.githubusercontent.com/69773959/108017560-6d26b280-6fd2-11eb-82d7-1cc495dd6d70.png)
+
+![image](https://user-images.githubusercontent.com/69773959/108017571-7283fd00-6fd2-11eb-9fd8-7de760b7d859.png)
+
+![image](https://user-images.githubusercontent.com/69773959/108017577-77e14780-6fd2-11eb-8299-66770eefc0ba.png)
+
+* Celebrate, you just created a blockchain and sent a transaction!
+
+### Create a repository, and instructions for launching the chain
+
+* Create a `README.md` in your project directory and create documentation that explains how to start the network.
+
+* Remember to include any environment setup instructions and dependencies.
+
+* Be sure to include all of the `geth` flags required to get both nodes to mine and explain what they mean.
+
+* Explain the configuration of the network, such as it's blocktime, chain ID, account passwords, ports, etc.
+
+* Explain how to connect MyCrypto to your network and demonstrate (via screenshots and steps) and send a transaction.
+
+* Upload the code, including the `networkname.json` and node folders.
+
+### Remember, *never* share your mainnet private keys! This is a testnet, so coins have no value here!
 
