@@ -55,11 +55,11 @@ geth.ethereum.org). I also created a Blockchain Tools notepad for my Mnemonic Ph
 
 Create a "Screenshots" folder inside of the project directory.
 
-![image](https://user-images.githubusercontent.com/69773959/107464809-47a33000-6b1e-11eb-837e-7455f22fa24e.png)
+![image](https://user-images.githubusercontent.com/69773959/108016106-ff2cbc00-6fce-11eb-8c23-1ee738422254.png)
 
 Create accounts for two (or more) nodes for the network with a separate datadir for each using geth.
 
-![image](https://user-images.githubusercontent.com/69773959/107465369-71108b80-6b1f-11eb-93e1-95d4057d9970.png)
+![image](https://user-images.githubusercontent.com/69773959/108016575-2041dc80-6fd0-11eb-9d35-a68ba0956b3b.png)
 
 Your folder should have 2 nodes 
 
