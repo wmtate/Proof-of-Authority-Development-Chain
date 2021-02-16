@@ -63,8 +63,6 @@ Create accounts for two (or more) nodes for the network with a separate datadir 
 
 Your folder should have 2 nodes 
 
-![image](https://user-images.githubusercontent.com/69773959/107465471-a61cde00-6b1f-11eb-95d8-78e53d9d94ac.png)
-
 Run puppeth, name your network, and select the option to configure a new genesis block.
 
 
@@ -91,21 +89,22 @@ You can delete the networkname-harmony.json file.
 
 Screenshot the puppeth configuration once complete and save it to the Screenshots folder.
 
-![image](https://user-images.githubusercontent.com/69773959/107466690-b9c94400-6b21-11eb-8d3d-60a6274a9de2.png)
+![image](https://user-images.githubusercontent.com/69773959/108016741-7b73cf00-6fd0-11eb-8893-15b7106fc3b0.png)
 
-![image](https://user-images.githubusercontent.com/69773959/107466635-a0c09300-6b21-11eb-8880-2ea8afbe41d4.png)
+![image](https://user-images.githubusercontent.com/69773959/108016783-8a5a8180-6fd0-11eb-873e-142d46eb2aa4.png)
 
-![image](https://user-images.githubusercontent.com/69773959/107466781-e3826b00-6b21-11eb-9e9f-53fde6f1c171.png)
 
 
 Initialize each node with the new networkname.json with geth.
 
-./geth init collegefund.json --datadir node1
-./geth init collegefund.json --datadir node2
+./geth init gensis.json --datadir node1
+./geth init gensis.json --datadir node2
+[image](https://user-images.githubusercontent.com/69773959/108016796-93e3e980-6fd0-11eb-92e5-9710c70bb62c.png)
 
-![image](https://user-images.githubusercontent.com/69773959/107467339-0d885d00-6b23-11eb-96de-70f16e012ca9.png)
+![image](https://user-images.githubusercontent.com/69773959/108016816-9a726100-6fd0-11eb-8ed5-03d0bbd0aa8c.png)
 
-![image](https://user-images.githubusercontent.com/69773959/107467374-1e38d300-6b23-11eb-99ef-e1efc44165ba.png)
+![image](https://user-images.githubusercontent.com/69773959/108016825-a65e2300-6fd0-11eb-9097-26598415aaac.png)
+
 
 Run the first node, unlock the account, enable mining, and the RPC flag. Only one node needs RPC enabled.
 
